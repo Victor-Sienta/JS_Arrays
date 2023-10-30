@@ -5,5 +5,5 @@ function task1()
         if (elem>0 && elem<10) sum+=elem;
         return sum
     },0);
-    alert(arr + "  " + summa);
+    alert("Данные: " + arr + "\nРезультат:  " + summa);
 }

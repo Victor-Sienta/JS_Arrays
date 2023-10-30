@@ -3,4 +3,4 @@ function task1(){
     return newArr;
 }
 let arr=[1,2,5,12,15,21];
-alert(arr + " " + task1(arr))
+alert("Данные: " + arr + "\nРезультат:  " + task1(arr))
