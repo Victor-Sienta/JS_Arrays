@@ -6,6 +6,6 @@ function isNumberEven(arr)
     return false;
 }
 let arrMain=['2','4','3'];
-alert(isNumberEven(arrMain));
+alert(arrMain + isNumberEven(arrMain));
 
     
