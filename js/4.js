@@ -1,4 +1,4 @@
-function task1(arr){
+function task1(){
     let newArr=arr.filter(index=>index%5==0);
     return newArr;
 }

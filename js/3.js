@@ -1,4 +1,4 @@
-function isNumberEven(arr)
+function isNumberEven()
 {
     if (arr.every(elem=>(elem%2==0)))
     return true;
