@@ -5,5 +5,5 @@ function task1()
         if (elem%2==0) sum+=Math.sqrt(elem);
         return sum
     },0);
-    alert(summa);
+    alert(arr + " " + summa);
 }
