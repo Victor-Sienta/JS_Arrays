@@ -3,7 +3,7 @@ function task1(){
     if (isNaN(num))
         alert("Введите корректное число");
     else{
-        let arr = num.split('').map(elem => +elem +1);
+        let arr = num.toString().split('').map(elem => +elem +1);
         alert ("Исходное число:  " + num + "\nИзмененное число  " + arr.join(''));
     }
 }
